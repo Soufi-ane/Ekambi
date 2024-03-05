@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    font-family: "Poppins";
+}
+input[type="range"]::-webkit-slider-runnable-track {
+    background: black;
+    height: 0.3rem;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+    border-radius: 0.5rem;
+}
+
+input[type="range"]::-moz-range-track {
+    height: 0.5rem;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: -6px;
+    background-color: #24c300;
+    height: 1.5rem;
+    width: 1rem;
+}
