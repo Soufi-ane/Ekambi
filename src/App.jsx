@@ -12,7 +12,7 @@ function App() {
                 setCurrent,
             }}>
             <div className="flex h-[100dvh] items-center justify-center">
-                <div className="h-[90dvh] md:grid md:grid-cols-2  xl:grid-cols-3 px-5 md:gap-5 md:px-10  lg:max-w-[1200px] overflow-y-scroll mt-10">
+                <div className="h-[90dvh] md:grid md:grid-cols-2  xl:grid-cols-3 px-5 md:gap-5 md:px-10  lg:max-w-[1200px] overflow-y-scroll mt-1">
                     {audios.map((audio) => (
                         <Audio key={audio?.id} file={audio} />
                     ))}
